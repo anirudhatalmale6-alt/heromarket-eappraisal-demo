@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HeroMarket e-Appraisal — Demo</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="logo"><span class="mark">HERO</span> <span>e-Appraisal</span></div>
+    <span class="sub">Staff Appraisal &amp; Confirmation Workflow · Phase 1 demo</span>
+    <div class="spacer"></div>
+    <div class="rolebox">
+      <span>View as</span>
+      <select id="roleSelect">
+        <option value="appraiser">Appraiser (Superior)</option>
+        <option value="appraisee">Staff (Appraisee)</option>
+        <option value="depthead">Dept Head</option>
+        <option value="director">Director</option>
+      </select>
+    </div>
+  </div>
+  <div class="wrap">
+    <div id="view"></div>
+  </div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
